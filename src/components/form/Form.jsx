@@ -87,8 +87,8 @@ const Form = ({ onAddArticle }) => {
         image: formData.image,
         content: formData.content,
         published: formData.published,
-        categoriesId: parseInt(formData.category), // Converte categoriesId in intero
-        tagsId: formData.tags.map(tag => parseInt(tag)), // Converte tagsId in interi
+        categoriesId: parseInt(formData.category), 
+        tagsId: formData.tags.map(tag => parseInt(tag)),
       });
 
       onAddArticle(response.data);

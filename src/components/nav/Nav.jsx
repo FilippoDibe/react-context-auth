@@ -15,6 +15,14 @@ const urlPages = [
         label: 'Post',
         href: '/post'
     },
+    {
+        label: 'Register',
+        href: '/register'
+    },
+    {
+        label: 'Login',
+        href: '/login'
+    },
 ]
 
 export default function(){

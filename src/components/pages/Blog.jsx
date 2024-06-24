@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from '../cards/Card';
-import './Pages.module.css';
 import style from './Pages.module.css';
 
 const apiUrl = import.meta.env.VITE_BASE_API_URL;
